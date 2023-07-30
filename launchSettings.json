@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "kafka.producer.api": "StartDebugging",
+        "kafka": "StartWithoutDebugging",
+        "kafka.consumer.handler": "StartDebugging",
+        "zookeeper": "StartWithoutDebugging"
+      }
+    }
+  }
+}
